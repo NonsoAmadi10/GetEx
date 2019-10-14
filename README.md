@@ -5,7 +5,7 @@
 
 - The App is hosted live at [GetEx](https://getexchange.netlify.com)
 
-#### Technologies Used 
+### Technologies Used 
 - Webpack
 - Eslint
 - React
@@ -13,7 +13,7 @@
 ### Get Started
 #### Requirements
 - You need [Node Js](https://nodejs.org) v8 or higher 
-* Instructions
+##### Instructions
 - Clone this Repo
 - Cd into the file directory
 - Run ``` npm start ``` to Run the server locally 
