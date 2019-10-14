@@ -1,0 +1,111 @@
+* 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: rgb(228, 220, 220);
+}
+
+body
+{
+    background: rgb(15, 15, 15);
+}
+
+.nav
+{
+    color: rgb(87, 85, 85);
+    margin: 0 2rem 0 2rem;
+    border-bottom: 1px solid goldenrod;
+    padding: 1rem;
+    
+}
+.yellow 
+{
+    color: goldenrod; 
+}
+
+.getCurrencies 
+{
+    font-family: sans-serif;
+    padding: 1.8rem;
+    margin: 1rem;
+    color: rgb(133, 128, 128);
+    border: 1px solid silver;
+    width: 50%;
+    font-size: 15px;
+}
+.get
+{
+    width: 50%;
+   
+    margin: 1rem;
+   
+    padding: 3rem;
+}
+
+.get input 
+{
+    padding: 1.5rem;
+    width: 100%;
+    margin: 0.85rem;
+    border: none;
+    background: rgb(15,15,15);
+    color: silver;
+    border-bottom: 1px solid goldenrod;
+    outline: none;
+    font-size: 1.87rem;
+
+}
+.get button 
+{
+    background: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding : 12px;
+    margin: 0.85rem;
+    width: 100%;
+    font-weight: bolder;
+    
+}
+.exchange
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.biggie
+{
+    font-size: 1rem;
+    margin: 1.5rem;
+}
+
+@media only screen and (max-width: 475px){
+    .exchange
+    {
+        flex-direction: column;
+    }
+    .getCurrencies
+    {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+    .get
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .get input 
+    {
+        margin: 0;
+        font-size: 1rem;
+    }
+    .get button
+    {
+        margin: 1.5rem auto;
+        width: 100%;
+        color: #fff;
+    }
+}
+
